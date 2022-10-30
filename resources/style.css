@@ -1,0 +1,304 @@
+/*TAG ELEMENTS********************/
+body {
+  display: grid;
+  grid-area: 1em;
+  grid-gap: 1em;
+  grid-template-rows: auto, auto, 1fr, auto;
+  background: #f4eee5;
+  margin: 0 auto 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Sam {
+  font-family: 'PP Hatton';
+  font-size: 5.5rem;
+  color: #000000;
+  margin-top: 150px;
+  position: absolute;
+  left: 65px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.sameer {
+  position: absolute;
+  left: 225px;
+  margin-bottom: -70px;
+}
+.gamer {
+  position: absolute;
+  left: 90px;
+}
+.self-made {
+  position: relative;
+  top: 390px;
+  color: #000000;
+  margin-left: 400px;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+.line {
+  border-left: 50px solid #ef9e80;
+  height: 300px;
+  position: relative;
+  left: 700px;
+  top: 100px;
+  display: inline-block;
+}
+.line-2 {
+  border-right: 450px solid #ef9e80;
+  height: 700px;
+  display: flex;
+  right: 1px;
+  position: absolute;
+  top: 90px;
+}
+
+.my-image {
+  position: absolute;
+  border-radius: 50%;
+  right: 6.5rem;
+  top: 150px;
+  padding: 20px 10px;
+  height: 600px;
+  width: 600px;
+}
+
+.line-3 {
+  border-right: 1067px solid #ef9e80;
+  height: 350px;
+  display: flex;
+  right: 1px;
+  position: absolute;
+  top: 890px;
+  margin-top: -80px;
+}
+.about {
+  position: absolute;
+  font-size: 5rem;
+  font-family: 'PP Hatton';
+  margin: 185px 360px;
+  font-weight: bold;
+}
+.about-image {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 90px;
+}
+.article {
+  display: inline-block;
+  color: #000000;
+  margin: 800px 100px;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 650px;
+  font-size: large;
+}
+
+/* skills */
+
+.horizontal {
+  border: 32px solid #ef9e80;
+  width: 630px;
+  position: relative;
+  left: 90px;
+  top: 1200px;
+  display: inline-block;
+}
+.skil {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: -80px 0 0 127px;
+  font-family: 'PP Hatton';
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.one {
+  border: 32px solid #ef9e80;
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  left: 350px;
+  top: 1900px;
+  transform: rotate(42deg);
+  display: inline-block;
+}
+.no1 {
+  position: absolute;
+  transform: rotate(318deg);
+  margin: -30px 0 0 -15px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.quick {
+  font-family: 'BERNIER? DISTRESSED';
+  position: absolute;
+  top: 2000px;
+  left: 320px;
+}
+.quickbooksskills {
+  margin-top: 1550px;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  left: 290px;
+}
+
+/* programming skills */
+.three {
+  border: 32px solid #ef9e80;
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  left: 950px;
+  top: 1900px;
+  transform: rotate(42deg);
+  display: inline-block;
+}
+.prog {
+  font-family: 'BERNIER? DISTRESSED';
+  position: absolute;
+  top: 2000px;
+  left: 850px;
+}
+.no3 {
+  position: absolute;
+  transform: rotate(318deg);
+  margin: -30px 0 0 -15px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.programming-lang {
+  margin-top: 1550px;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  left: 900px;
+}
+/* Office */
+.two {
+  border: 32px solid #ef9e80;
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  left: 950px;
+  top: 1630px;
+  transform: rotate(42deg);
+  display: inline-block;
+}
+.no2 {
+  position: absolute;
+  transform: rotate(318deg);
+  margin: -30px 0 0 -15px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.ms {
+  font-family: 'BERNIER? DISTRESSED';
+  position: absolute;
+  top: 1720px;
+  left: 930px;
+}
+.office {
+  margin-top: 1280px;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  left: 920px;
+}
+
+/* last container */
+
+.customerimg {
+  margin-top: 1700px;
+  width: 600px;
+  height: 800px;
+}
+.contact {
+  display: inline-block;
+  position: absolute;
+  margin-top: 1700px;
+  left: 750px;
+  font-family: 'BERNIER? DISTRESSED';
+  font-size: 7rem;
+  font-weight: 1000px;
+}
+
+.lastline {
+  border-right: 30px solid #030303;
+  height: 802px;
+  display: flex;
+  right: 750px;
+  position: absolute;
+  top: 2200px;
+}
+.circle1 {
+  border-radius: 50%;
+  border: 20px solid #000000;
+  display: flex;
+  right: 730px;
+  position: absolute;
+  top: 2400px;
+}
+.cell {
+  display: inline-block;
+  position: absolute;
+  margin-top: 1900px;
+  left: 780px;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.circle2 {
+  border-radius: 50%;
+  border: 20px solid #030303;
+  display: flex;
+  right: 730px;
+  position: absolute;
+  top: 2550px;
+}
+.mail {
+  display: inline-block;
+  position: absolute;
+  margin-top: 2050px;
+  left: 780px;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.circle3 {
+  border-radius: 50%;
+  border: 20px solid #030303;
+  display: flex;
+  right: 730px;
+  position: absolute;
+  top: 2700px;
+}
+.web {
+  display: inline-block;
+  position: absolute;
+  margin-top: 2200px;
+  left: 780px;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.circle4 {
+  border-radius: 50%;
+  border: 20px solid #030303;
+  display: flex;
+  right: 730px;
+  position: absolute;
+  top: 2850px;
+}
+.insta {
+  display: inline-block;
+  position: absolute;
+  margin-top: 2350px;
+  left: 780px;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
